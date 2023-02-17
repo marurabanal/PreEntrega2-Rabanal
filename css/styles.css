@@ -269,7 +269,12 @@ grid-template-areas:
 .bg-white {
 background-color: white;
  }
-    
+
+
+ .grid {
+    width: 99%;
+    display: grid;
+}
 
 /* MOBILE */
 
