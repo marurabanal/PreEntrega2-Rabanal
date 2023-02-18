@@ -120,8 +120,7 @@ justify-content: center;
     height: 210px;
     align-items: center;
     margin: 50px;
-    background-color: grey;
-    display: flex;
+     display: flex;
     justify-content: space-around;
     }
 
@@ -164,15 +163,13 @@ margin: 20px;
 }
 .article__producto-principal{
     font-weight: bolder;
-    color: grey;
     padding: 10px;
     display: flex;
     background-color: #DAE0E0;
     display: inline-block;
     padding: 20px;
     border-radius: 20px;
-    box-sizing: border-box;
-    text-align: center;
+       text-align: center;
 }
 
 .article__descripcion-productos-principales{
@@ -244,9 +241,26 @@ background-color: white;
 /* MOBILE */
 
 @media screen and (max-width: 768px) {
-    body {
-          
+     .section__productos-seleccionado {
+        flex-direction: column;
+         
       }
+
+      .article__producto-principal{
+    
+    
+        padding-top: 10px;
+     
+      
+    }
+
+      .section__productos-otros {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        margin: 20px;
+        
+    }
     }
 
 
