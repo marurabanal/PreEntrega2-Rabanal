@@ -238,6 +238,27 @@ background-color: white;
     display: grid;
 }
 
+
+.scale:hover {
+    transform: scaleX(1.2);
+}
+ 
+
+@keyframes textAlpha {
+    from{opacity: 0}
+    to{opacity: 1}
+}   
+
+
+h1{
+  animation-name: textAlpha; 
+  animation-duration: 2s;
+}
+
+.detalleCopy{
+    padding: 10px;
+}
+
 /* MOBILE */
 
 @media screen and (max-width: 768px) {
@@ -245,6 +266,10 @@ background-color: white;
         flex-direction: column;
          
       }
+
+    .w-100   {
+        width: 100%;
+    }
 
       .article__producto-principal{
     
@@ -261,6 +286,24 @@ background-color: white;
         margin: 20px;
         
     }
+
+    .articleRegistro{
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+.barra-de-navegacion-ppal__listas {
+    flex-direction: column;
+    
+}
+    
+.banner {
+    display: none;
+}
+
+
+
     }
 
 
